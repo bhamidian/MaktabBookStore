@@ -4,12 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using MaktabBookStore.Domain.UserAgg.Enums;
 
-namespace MaktabBookStore.Domain.UserAgg.DTOs
+namespace MaktabBookStore.Presentation.MVC.Models.ViewModels
 {
-    public class GetUserDTO
+    public class CreateUserViewModel
     {
-        public int Id { get; set;}
         public string MobileNumber { get; set; }
+        public string Password { get; set; }
         public Role Role { get; set; }
     }
 }

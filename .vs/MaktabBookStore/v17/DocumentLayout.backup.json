@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -235,19 +231,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_AdminLayout.cshtml",
-              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T11:37:53.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Admin\\Index.cshtml",
@@ -255,11 +238,12 @@
               "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T11:38:03.144Z"
+              "WhenOpened": "2025-11-04T11:38:03.144Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Privacy.cshtml",
@@ -271,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_Layout.cshtml",
@@ -283,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Index.cshtml",
@@ -295,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Login.cshtml",
@@ -307,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AdminController.cs",
@@ -319,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\Services\\UserService.cs",
@@ -331,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -343,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AccountController.cs",
@@ -355,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\UserRepository.cs",
@@ -367,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Register.cshtml",
@@ -379,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\HomeController.cs",
@@ -391,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "BookService.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\BookService.cs",
               "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\Services\\BookService.cs",
@@ -403,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "CategoryConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\CategoryConfigurations.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\CategoryConfigurations.cs",
@@ -415,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "BookRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\BookRepository.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\BookRepository.cs",
@@ -427,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "BookConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\BookConfigurations.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\BookConfigurations.cs",
@@ -439,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "AuthorConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\AuthorConfigurations.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\AuthorConfigurations.cs",
@@ -451,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Persistence\\AppDbContext.cs",
@@ -463,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "UserConfigurations.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\UserConfigurations.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\UserConfigurations.cs",
@@ -475,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Program.cs",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Program.cs",
@@ -487,7 +471,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "OnlineUser.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\OnlineUser.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\OnlineUser.cs",
@@ -499,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 21,
               "Title": "InMemoryDatabase.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\InMemoryDatabase.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\InMemoryDatabase.cs",
@@ -511,7 +495,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 22,
               "Title": "MaktabBookStore.Presentation.MVC.csproj",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj",
@@ -523,7 +507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 23,
               "Title": "AuthorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\AuthorRepository.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\AuthorRepository.cs",
@@ -535,7 +519,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 24,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\Admin.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\Admin.cs",
@@ -547,7 +531,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 26,
               "Title": "AddBookViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\AddBookViewModel.cs",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\AddBookViewModel.cs",
@@ -559,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 25,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Services\\IUserService.cs",
@@ -571,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 27,
               "Title": "HomePageViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\HomePageViewModel.cs",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\HomePageViewModel.cs",
@@ -583,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 28,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\LoginViewModel.cs",
@@ -595,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "GetCategoriesDTO.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\DTOs\\GetCategoriesDTO.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\DTOs\\GetCategoriesDTO.cs",
@@ -607,7 +591,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "GetBookDTO.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\GetBookDTO.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\GetBookDTO.cs",
@@ -619,7 +603,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 33,
               "Title": "AddBookDTO.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\AddBookDTO.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\AddBookDTO.cs",
@@ -631,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 34,
               "Title": "IBookService.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Services\\IBookService.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Services\\IBookService.cs",
@@ -643,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Entities\\Category.cs",
@@ -655,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Repositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Repositories\\ICategoryRepository.cs",
@@ -667,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 35,
               "Title": "IBookRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Repositories\\IBookRepository.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Repositories\\IBookRepository.cs",
@@ -679,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 37,
               "Title": "GetAuthorDTO.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\DTOs\\GetAuthorDTO.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\DTOs\\GetAuthorDTO.cs",
@@ -691,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 39,
               "Title": "IAuthorRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Repositories\\IAuthorRepository.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Repositories\\IAuthorRepository.cs",
@@ -703,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 40,
               "Title": "AuthorService.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\AuthorService.cs",
               "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\Services\\AuthorService.cs",
@@ -715,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 41,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\Services\\CategoryService.cs",
@@ -727,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 36,
               "Title": "Author.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Entities\\Author.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Entities\\Author.cs",
@@ -739,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 38,
               "Title": "IAuthorService.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Services\\IAuthorService.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Services\\IAuthorService.cs",
@@ -751,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 42,
               "Title": "MaktabBookStore.Services.csproj",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj",
               "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj",
@@ -763,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 43,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\CategoryRepository.cs",
@@ -775,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 44,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Services\\ICategoryService.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Services\\ICategoryService.cs",
@@ -787,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 45,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\User.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\User.cs",
@@ -799,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 46,
               "Title": "NormalUser.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\NormalUser.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\NormalUser.cs",
@@ -811,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 47,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\_common\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\_common\\Entities\\BaseEntity.cs",
@@ -823,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 48,
               "Title": "MaktabBookStore.Domain.csproj",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj",
@@ -835,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 49,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Repositories\\IUserRepository.cs",
@@ -847,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 50,
               "Title": "Role.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Enums\\Role.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Enums\\Role.cs",
@@ -859,7 +843,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 51,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Entities\\Book.cs",
@@ -871,7 +855,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 52,
               "Title": "MaktabBookStore.Infrastructure.EFCore.csproj",
               "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj",
               "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj",
