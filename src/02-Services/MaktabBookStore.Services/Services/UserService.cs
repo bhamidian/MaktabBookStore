@@ -26,6 +26,16 @@ namespace MaktabBookStore.Services.Services
             return ResultDTO<bool>.Fail(message: "مشکلی در تغییر وضعیت کاربر به وجود امد");
         }
 
+        public ResultDTO<bool> DeleteUser(int id)
+        {
+            var delete = _userRepository.DeleteUser(id);
+
+            if (delete)
+                return ResultDTO<bool>.Success("کاربر با موفقیت حذف شد");
+
+            return ResultDTO<bool>.Fail("مشکلی در حذف کاربر پیش امد");
+        }
+
         public ResultDTO<bool> EditRole(int id, Role role)
         {
             var edit = _userRepository.EditRole(id, role);

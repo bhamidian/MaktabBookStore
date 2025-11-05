@@ -21,10 +21,10 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
 
         public bool ChangeUserCon(int id, bool con)
         {
-            var user = new User { Id = id, IsActive = con };
+            // var user = new User { Id = id, IsActive = con };
 
-            _dbcontext.Users.Attach(user);
-            _dbcontext.Entry(user).Property(u => u.IsActive).IsModified = true;
+            // _dbcontext.Users.Attach(user);
+            // _dbcontext.Entry(user).Property(u => u.IsActive).IsModified = true;
 
             return _dbcontext.SaveChanges() > 0;
         }

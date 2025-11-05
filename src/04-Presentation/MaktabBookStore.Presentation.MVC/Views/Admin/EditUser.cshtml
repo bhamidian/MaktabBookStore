@@ -1,0 +1,82 @@
+@* @using MaktabBookStore.Presentation.MVC.Models.ViewModels;
+@model MaktabBookStore.Presentation.MVC.Models.ViewModels.EditUserViewModel;
+
+
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "ManageUser";
+}
+
+<section class="space-y-8">
+
+    <!-- Header -->
+    <div class="flex justify-between items-center bg-white p-6 rounded-xl shadow border border-gray-100">
+        <div>
+            <h2 class="text-2xl font-bold text-indigo-700">لیست کاربران 👥</h2>
+            <p class="text-gray-500 text-sm">در این بخش می‌توانید کاربران را مشاهده، ویرایش یا حذف کنید.</p>
+        </div>
+        <a asp-action="Register" asp-controller="Account"
+           class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-5 py-2 rounded-lg shadow transition">
+            ➕ افزودن کاربر جدید
+        </a>
+    </div>
+
+    <!-- Message -->
+    @if (ViewBag.Message != null)
+    {
+        var success = ViewBag.IsSuccess as bool? ?? false;
+        <div class="p-3 rounded-lg text-center font-medium @(success ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700")">
+            @ViewBag.Message
+        </div>
+    }
+
+    <!-- User Table -->
+    <div class="bg-white p-6 rounded-xl shadow overflow-x-auto border border-slate-100">
+        <table class="min-w-full text-sm text-right">
+            <thead>
+                <tr class="bg-blue-50 text-blue-800 text-sm border-b border-blue-100">
+                    <th class="py-2 px-3">#</th>
+                    <th class="py-2 px-3">شماره موبایل</th>
+                    <th class="py-2 px-3">نقش</th>
+                    <th class="py-2 px-3">وضعیت</th>
+                    <th class="py-2 px-3 text-center">عملیات</th>
+                </tr>
+            </thead>
+            <tbody class="text-gray-700 divide-y divide-gray-100">
+                @if (Model != null && Model.Any())
+                {
+                    var index = 1;
+                    foreach (var user in Model)
+                    {
+                        <tr class="hover:bg-slate-50 transition">
+                            <td class="py-2 px-3">@index</td>
+                            <td class="py-2 px-3 font-semibold">@user.UserName</td>
+                            <td class="py-2 px-3">@user.Email</td>
+                            <td class="py-2 px-3">@user.RoleName</td>
+                            <td class="py-2 px-3">@user.RegisterDate.ToShortDateString()</td>
+                            <td class="py-2 px-3 text-center space-x-2 space-x-reverse">
+                                <a asp-action="Edit" asp-route-id="@user.Id" asp-controller="User"
+                                   class="bg-yellow-100 hover:bg-yellow-200 text-yellow-700 px-3 py-1 rounded-lg text-xs font-semibold transition">
+                                   ✏️ ویرایش
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@user.Id" asp-controller="User"
+                                   onclick="return confirm('آیا از حذف این کاربر مطمئن هستید؟');"
+                                   class="bg-red-100 hover:bg-red-200 text-red-700 px-3 py-1 rounded-lg text-xs font-semibold transition">
+                                   ❌ حذف
+                                </a>
+                            </td>
+                        </tr>
+                        index++;
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6" class="text-center text-gray-400 py-4">هیچ کاربری یافت نشد.</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</section> *@

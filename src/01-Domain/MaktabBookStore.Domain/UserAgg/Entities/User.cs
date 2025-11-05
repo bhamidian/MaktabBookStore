@@ -13,7 +13,6 @@ namespace MaktabBookStore.Domain.UserAgg.Entities
     {
         public string MobileNumber { get; set; }
         public string Password { get; set; }
-        public bool IsActive { get; set; } = false;
         public Role Role { get; set; }
     }
 }
