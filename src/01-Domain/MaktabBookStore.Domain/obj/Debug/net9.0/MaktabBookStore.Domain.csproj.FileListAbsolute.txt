@@ -1,0 +1,11 @@
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\bin\Debug\net9.0\MaktabBookStore.Domain.deps.json
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\bin\Debug\net9.0\MaktabBookStore.Domain.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\bin\Debug\net9.0\MaktabBookStore.Domain.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\MaktabBookStore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\MaktabBookStore.Domain.AssemblyInfoInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\MaktabBookStore.Domain.AssemblyInfo.cs
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\MaktabBookStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\MaktabBookStore.Domain.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\refint\MaktabBookStore.Domain.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\MaktabBookStore.Domain.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\ref\MaktabBookStore.Domain.dll

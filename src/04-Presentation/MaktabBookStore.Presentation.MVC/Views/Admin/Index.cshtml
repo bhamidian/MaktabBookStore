@@ -1,0 +1,42 @@
+@{
+    Layout = "../Shared/_AdminLayout";
+    ViewData["Title"] = "Index";
+}
+
+<section class="space-y-8">
+
+    <div class="bg-gradient-to-r from-indigo-100 to-blue-50 p-6 rounded-xl shadow">
+        <h2 class="text-2xl font-bold text-indigo-700 mb-2">خوش آمدید، مدیر گرامی 👋</h2>
+        <p class="text-gray-600">در این صفحه می‌توانید وضعیت کلی سیستم را مشاهده و عملیات اصلی را انجام دهید.</p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl shadow p-5 border-l-4 border-indigo-400 flex items-center justify-between">
+            <div>
+                <h3 class="text-gray-500 text-sm">تعداد کاربران</h3>
+                <p class="text-2xl font-bold text-gray-800">@Model.UserCount</p>
+            </div>
+            <span class="text-indigo-600 text-3xl">👥</span>
+        </div>
+
+        <div class="bg-white rounded-xl shadow p-5 border-l-4 border-blue-400 flex items-center justify-between">
+            <div>
+                <h3 class="text-gray-500 text-sm">تعداد کتاب‌ها</h3>
+                <p class="text-2xl font-bold text-gray-800">@Model.BookCount</p>
+            </div>
+            <span class="text-blue-500 text-3xl">📚</span>
+        </div>
+
+
+        <div class="bg-white rounded-xl shadow p-5 border-l-4 border-amber-400 flex items-center justify-between">
+            <div>
+                <h3 class="text-gray-500 text-sm">دسته‌بندی‌ها</h3>
+                <p class="text-2xl font-bold text-gray-800">@Model.CategoryCount</p>
+            </div>
+            <span class="text-yellow-500 text-3xl">🗂️</span>
+        </div>
+    </div>
+
+
+
+</section>

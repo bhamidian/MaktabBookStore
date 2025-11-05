@@ -1,0 +1,942 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6287C6F-F3FA-4719-826F-631B2D2605EA}|src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\02-services\\maktabbookstore.services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6287C6F-F3FA-4719-826F-631B2D2605EA}|src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj|solutionrelative:src\\02-services\\maktabbookstore.services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6287C6F-F3FA-4719-826F-631B2D2605EA}|src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\02-services\\maktabbookstore.services\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6287C6F-F3FA-4719-826F-631B2D2605EA}|src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj|solutionrelative:src\\02-services\\maktabbookstore.services\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\configurations\\categoryconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\configurations\\categoryconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\repositories\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\configurations\\authorconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\configurations\\authorconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\configurations\\userconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\configurations\\userconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\configurations\\bookconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\configurations\\bookconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\inmemory\\onlineuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\inmemory\\onlineuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\inmemory\\inmemorydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\inmemory\\inmemorydatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\maktabbookstore.presentation.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\maktabbookstore.presentation.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\repositories\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\useragg\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\useragg\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\useragg\\contracts\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\useragg\\contracts\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\models\\viewmodels\\addbookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\models\\viewmodels\\addbookviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\models\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\models\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\04-presentation\\maktabbookstore.presentation.mvc\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE58D5B5-B7FC-4252-9953-BCF6195BB64C}|src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj|solutionrelative:src\\04-presentation\\maktabbookstore.presentation.mvc\\models\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\categoryagg\\contracts\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\categoryagg\\contracts\\repositories\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\categoryagg\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\categoryagg\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\categoryagg\\dtos\\getcategoriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\categoryagg\\dtos\\getcategoriesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\bookagg\\dtos\\getbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\bookagg\\dtos\\getbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\bookagg\\dtos\\addbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\bookagg\\dtos\\addbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\bookagg\\contracts\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\bookagg\\contracts\\services\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\bookagg\\contracts\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\bookagg\\contracts\\repositories\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\authoragg\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\authoragg\\entities\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\authoragg\\dtos\\getauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\authoragg\\dtos\\getauthordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\authoragg\\contracts\\services\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\authoragg\\contracts\\services\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\authoragg\\contracts\\repositories\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\authoragg\\contracts\\repositories\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6287C6F-F3FA-4719-826F-631B2D2605EA}|src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\02-services\\maktabbookstore.services\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6287C6F-F3FA-4719-826F-631B2D2605EA}|src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj|solutionrelative:src\\02-services\\maktabbookstore.services\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6287C6F-F3FA-4719-826F-631B2D2605EA}|src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\02-services\\maktabbookstore.services\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6287C6F-F3FA-4719-826F-631B2D2605EA}|src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj|solutionrelative:src\\02-services\\maktabbookstore.services\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6287C6F-F3FA-4719-826F-631B2D2605EA}|src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\02-services\\maktabbookstore.services\\maktabbookstore.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F6287C6F-F3FA-4719-826F-631B2D2605EA}|src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj|solutionrelative:src\\02-services\\maktabbookstore.services\\maktabbookstore.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\categoryagg\\contracts\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\categoryagg\\contracts\\services\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\useragg\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\useragg\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\useragg\\entities\\normaluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\useragg\\entities\\normaluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\_common\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\_common\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\maktabbookstore.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\maktabbookstore.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\useragg\\contracts\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\useragg\\contracts\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\useragg\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\useragg\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\01-domain\\maktabbookstore.domain\\bookagg\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E93C5B3D-5520-444B-88EA-97A47676F601}|src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj|solutionrelative:src\\01-domain\\maktabbookstore.domain\\bookagg\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|c:\\users\\abolfazl\\documents\\backend-projects\\maktabbookstore\\src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\maktabbookstore.infrastructure.efcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6ACC5001-8660-44E3-B0D9-D947409F5E85}|src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj|solutionrelative:src\\03-infrastructure\\maktabbookstore.infrastructure.efcore\\maktabbookstore.infrastructure.efcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T11:37:53.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T11:38:03.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T10:18:22.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T10:17:56.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T21:25:03.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T10:11:28.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:21:23.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\02-Services\\MaktabBookStore.Services\\Services\\UserService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:41:27.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T10:21:33.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAADwvyIAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:39:58.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA2wAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:25:16.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T08:36:31.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:23:29.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\BookService.cs",
+              "RelativeToolTip": "src\\02-Services\\MaktabBookStore.Services\\Services\\BookService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:42:31.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CategoryConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\CategoryConfigurations.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\CategoryConfigurations.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\CategoryConfigurations.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\CategoryConfigurations.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:51:06.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\BookRepository.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\BookRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\BookRepository.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\BookRepository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAgwFMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T22:00:54.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BookConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\BookConfigurations.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\BookConfigurations.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\BookConfigurations.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\BookConfigurations.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:58:43.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthorConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\AuthorConfigurations.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\AuthorConfigurations.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\AuthorConfigurations.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\AuthorConfigurations.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAwwBUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:58:15.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:51:09.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\UserConfigurations.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\UserConfigurations.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\UserConfigurations.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Configurations\\UserConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:57:35.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Program.cs",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Program.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAQwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T07:57:03.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "OnlineUser.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\OnlineUser.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\OnlineUser.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\OnlineUser.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\OnlineUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:04:04.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "InMemoryDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\InMemoryDatabase.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\InMemoryDatabase.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\InMemoryDatabase.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\InMemory\\InMemoryDatabase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:03:31.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MaktabBookStore.Presentation.MVC",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\MaktabBookStore.Presentation.MVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-04T07:51:02.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\AuthorRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\AuthorRepository.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\AuthorRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:50:56.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\Admin.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\Admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:14:48.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddBookViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\AddBookViewModel.cs",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\AddBookViewModel.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\AddBookViewModel.cs",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\AddBookViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:42:36.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Services\\IUserService.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T11:11:30.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\HomePageViewModel.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\HomePageViewModel.cs",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\HomePageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:43:29.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Models\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:44:51.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GetCategoriesDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\DTOs\\GetCategoriesDTO.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\DTOs\\GetCategoriesDTO.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\DTOs\\GetCategoriesDTO.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\DTOs\\GetCategoriesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:18:23.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetBookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\GetBookDTO.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\GetBookDTO.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\GetBookDTO.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\GetBookDTO.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:06:53.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddBookDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\AddBookDTO.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\AddBookDTO.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\AddBookDTO.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\DTOs\\AddBookDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:06:52.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Services\\IBookService.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Services\\IBookService.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Services\\IBookService.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Services\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:12:13.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Entities\\Category.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:10:08.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Repositories\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Repositories\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Repositories\\ICategoryRepository.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Repositories\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:13:53.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IBookRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Repositories\\IBookRepository.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Repositories\\IBookRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Repositories\\IBookRepository.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Contracts\\Repositories\\IBookRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:10:45.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetAuthorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\DTOs\\GetAuthorDTO.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\DTOs\\GetAuthorDTO.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\DTOs\\GetAuthorDTO.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\DTOs\\GetAuthorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:17:44.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IAuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Repositories\\IAuthorRepository.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Repositories\\IAuthorRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Repositories\\IAuthorRepository.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Repositories\\IAuthorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:06:28.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\AuthorService.cs",
+              "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\Services\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\AuthorService.cs",
+              "RelativeToolTip": "src\\02-Services\\MaktabBookStore.Services\\Services\\AuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:43:53.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\CategoryService.cs",
+              "RelativeToolTip": "src\\02-Services\\MaktabBookStore.Services\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:43:09.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Entities\\Author.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Entities\\Author.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Entities\\Author.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Entities\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:13:02.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IAuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Services\\IAuthorService.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Services\\IAuthorService.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Services\\IAuthorService.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\AuthorAgg\\Contracts\\Services\\IAuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:12:20.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MaktabBookStore.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj",
+              "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj",
+              "RelativeToolTip": "src\\02-Services\\MaktabBookStore.Services\\MaktabBookStore.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-02T08:38:30.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T08:50:54.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Services\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Services\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Services\\ICategoryService.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\CategoryAgg\\Contracts\\Services\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:12:38.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\User.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:14:57.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "NormalUser.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\NormalUser.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\NormalUser.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\NormalUser.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Entities\\NormalUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:15:44.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\_common\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\_common\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\_common\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\_common\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:09:32.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "MaktabBookStore.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\MaktabBookStore.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-02T10:09:20.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Contracts\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T10:06:37.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Enums\\Role.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\UserAgg\\Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:15:18.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Entities\\Book.cs",
+              "RelativeToolTip": "src\\01-Domain\\MaktabBookStore.Domain\\BookAgg\\Entities\\Book.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T09:07:01.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "MaktabBookStore.Infrastructure.EFCore.csproj",
+              "DocumentMoniker": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj",
+              "RelativeDocumentMoniker": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj",
+              "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj",
+              "RelativeToolTip": "src\\03-Infrastructure\\MaktabBookStore.Infrastructure.EFCore\\MaktabBookStore.Infrastructure.EFCore.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-01T19:49:11.915Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

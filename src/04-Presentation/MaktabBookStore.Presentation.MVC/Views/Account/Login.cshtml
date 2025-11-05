@@ -1,0 +1,63 @@
+@using MaktabBookStore.Domain.UserAgg.Enums
+@using MaktabBookStore.Presentation.MVC.Models.ViewModels
+@model MaktabBookStore.Presentation.MVC.Models.ViewModels.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gradient-to-tr from-blue-50 to-slate-50 text-gray-800">
+
+    <form asp-action="Login" asp-controller="Account" method="post"
+          class="bg-white rounded-2xl shadow-lg w-full max-w-md p-8 space-y-6 border border-gray-200">
+
+        <h2 class="text-2xl font-bold text-center text-blue-700 mb-4">ورود</h2>
+
+        <div>
+            <label for="mobile" class="block mb-1 font-medium text-gray-700">شماره موبایل</label>
+            <input type="text" id="mobile" name="MobileNumber"
+                   class="w-full rounded-lg border border-gray-300 bg-gray-50
+                          focus:ring-2 focus:ring-blue-400 focus:border-blue-400 px-3 py-2 shadow-sm transition">
+        </div>
+
+        <div>
+            <label for="password" class="block mb-1 font-medium text-gray-700">کلمه عبور</label>
+            <input type="password" id="password" name="Password"
+                   class="w-full rounded-lg border border-gray-300 bg-gray-50
+                          focus:ring-2 focus:ring-blue-400 focus:border-blue-400 px-3 py-2 shadow-sm transition">
+        </div>
+
+        @if (!string.IsNullOrEmpty(ViewBag.LoginMessage as string))
+        {
+            <div class="rounded-lg p-3 text-center text-sm font-medium
+                        @(ViewBag.IsSuccess == true 
+                            ? "bg-green-100 text-green-700 border border-green-300"
+                            : "bg-red-100 text-red-700 border border-red-300")">
+                @ViewBag.LoginMessage
+            </div>
+        }
+
+        <button type="submit"
+                class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg font-semibold
+                       shadow-md hover:shadow-lg transition">
+            ورود
+        </button>
+
+        <p class="text-center text-sm mt-4 text-gray-700">
+            حساب کاربری ندارید؟
+            <a asp-controller="Account" asp-action="Register" class="text-blue-600 hover:underline font-medium">
+                ثبت‌نام کنید
+            </a>
+        </p>
+    </form>
+
+</body>
+</html>

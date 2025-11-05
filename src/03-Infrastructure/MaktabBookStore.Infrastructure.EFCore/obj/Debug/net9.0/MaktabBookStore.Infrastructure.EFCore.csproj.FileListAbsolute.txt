@@ -1,0 +1,17 @@
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\bin\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.deps.json
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\bin\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.runtimeconfig.json
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\bin\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\bin\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\bin\Debug\net9.0\MaktabBookStore.Domain.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\bin\Debug\net9.0\MaktabBookStore.Domain.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.csproj.AssemblyReference.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.AssemblyInfoInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.AssemblyInfo.cs
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.csproj.CoreCompileInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\MaktabBo.935AE895.Up2Date
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\refint\MaktabBookStore.Infrastructure.EFCore.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.genruntimeconfig.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\obj\Debug\net9.0\ref\MaktabBookStore.Infrastructure.EFCore.dll

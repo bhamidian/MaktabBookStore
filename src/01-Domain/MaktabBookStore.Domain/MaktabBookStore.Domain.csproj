@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="AuthorAgg\Contracts\Services\" />
+    <Folder Include="AuthorAgg\Contracts\Repositories\" />
+    <Folder Include="AuthorAgg\Entities\" />
+    <Folder Include="AuthorAgg\DTOs\" />
+    <Folder Include="AuthorAgg\Enums\" />
+    <Folder Include="BookAgg\Contracts\Repositories\" />
+    <Folder Include="BookAgg\Contracts\Services\" />
+    <Folder Include="BookAgg\DTOs\" />
+    <Folder Include="BookAgg\Entities\" />
+    <Folder Include="BookAgg\Enums\" />
+    <Folder Include="CategoryAgg\Contracts\Repositories\" />
+    <Folder Include="CategoryAgg\Contracts\Services\" />
+    <Folder Include="CategoryAgg\DTOs\" />
+    <Folder Include="CategoryAgg\Entities\" />
+    <Folder Include="CategoryAgg\Enums\" />
+    <Folder Include="UserAgg\Contracts\Repositories\" />
+    <Folder Include="UserAgg\Contracts\Services\" />
+    <Folder Include="UserAgg\DTOs\" />
+    <Folder Include="UserAgg\Entities\" />
+    <Folder Include="_common\Contracts\Repositories\" />
+    <Folder Include="_common\Contracts\Services\" />
+    <Folder Include="_common\DTOs\" />
+    <Folder Include="_common\Entities\" />
+    <Folder Include="_common\Enums\" />
+  </ItemGroup>
+
+</Project>

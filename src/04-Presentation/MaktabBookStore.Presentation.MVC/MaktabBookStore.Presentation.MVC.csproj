@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01-Domain\MaktabBookStore.Domain\MaktabBookStore.Domain.csproj" />
+    <ProjectReference Include="..\..\03-Infrastructure\MaktabBookStore.Infrastructure.EFCore\MaktabBookStore.Infrastructure.EFCore.csproj" />
+    <ProjectReference Include="..\..\02-Services\MaktabBookStore.Services\MaktabBookStore.Services.csproj" />
+  </ItemGroup>
+
+</Project>

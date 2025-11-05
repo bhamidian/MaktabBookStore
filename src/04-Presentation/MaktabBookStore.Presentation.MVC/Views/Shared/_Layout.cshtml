@@ -1,0 +1,85 @@
+﻿@using MaktabBookStore.Domain.BookAgg.DTOs
+@using MaktabBookStore.Domain.UserAgg.Enums
+@using MaktabBookStore.Presentation.MVC.Models.ViewModels
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - BookStore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            font-family: 'Vazir', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-gray-800 selection:bg-indigo-200 selection:text-indigo-900 flex flex-col min-h-screen">
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a asp-controller="Home" asp-action="Index" class="text-2xl font-bold text-indigo-700">باغ کتاب</a>
+
+            <ul class="hidden md:flex items-center gap-6 text-gray-700 font-medium">
+                <li><a href="#" class="hover:text-indigo-600 transition">صفحه اصلی</a></li>
+                <li><a href="#" class="hover:text-indigo-600 transition">فروشگاه</a></li>
+                <li><a href="#" class="hover:text-indigo-600 transition">دسته‌بندی‌ها</a></li>
+                <li><a href="#" class="hover:text-indigo-600 transition">نوشتارها</a></li>
+                <li><a href="#" class="hover:text-indigo-600 transition">درباره ما</a></li>
+                <li><a href="#" class="hover:text-indigo-600 transition">تماس با ما</a></li>
+            </ul>
+
+            <div class="hidden md:block">
+                <a asp-controller="Account" asp-action="Login"
+                   class="bg-indigo-600 hover:bg-indigo-700 text-white px-5 py-2 rounded-lg font-semibold shadow transition">
+                    ورود
+                </a>
+            </div>
+
+            <div class="md:hidden flex items-center">
+                <button id="menu-toggle" class="text-indigo-700 focus:outline-none text-xl">☰</button>
+            </div>
+        </nav>
+
+        <ul id="mobile-menu" class="md:hidden hidden bg-indigo-50 border-t border-indigo-100 text-center space-y-2 py-4">
+            <li><a href="#" class="block py-1">صفحه اصلی</a></li>
+            <li><a href="#" class="block py-1">فروشگاه</a></li>
+            <li><a href="#" class="block py-1">دسته‌بندی‌ها</a></li>
+            <li><a href="#" class="block py-1">نوشتارها</a></li>
+            <li><a href="#" class="block py-1">درباره ما</a></li>
+            <li><a href="#" class="block py-1">تماس با ما</a></li>
+            <li>
+                <a asp-controller="Account" asp-action="Login"
+                   class="inline-block bg-indigo-600 text-white rounded-lg px-6 py-1 mt-2">
+                    ورود
+                </a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        @RenderBody()
+    </main>
+
+    <footer class="bg-indigo-50 border-t border-indigo-200 text-center py-5 mt-auto">
+        <div class="text-gray-700">
+            <h6 class="font-semibold">باغ کتاب | منبع آموزش و مطالعه</h6>
+            <p class="text-sm mt-1">تهیه شده در بوت‌کمپ مکتب‌ شریف</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuButton = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuButton?.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

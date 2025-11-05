@@ -1,0 +1,17 @@
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\bin\Debug\net9.0\MaktabBookStore.Services.deps.json
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\bin\Debug\net9.0\MaktabBookStore.Services.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\bin\Debug\net9.0\MaktabBookStore.Services.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\bin\Debug\net9.0\MaktabBookStore.Domain.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\bin\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\bin\Debug\net9.0\MaktabBookStore.Domain.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\bin\Debug\net9.0\MaktabBookStore.Infrastructure.EFCore.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\MaktabBookStore.Services.csproj.AssemblyReference.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\MaktabBookStore.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\MaktabBookStore.Services.AssemblyInfoInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\MaktabBookStore.Services.AssemblyInfo.cs
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\MaktabBookStore.Services.csproj.CoreCompileInputs.cache
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\MaktabBo.5568C1AE.Up2Date
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\MaktabBookStore.Services.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\refint\MaktabBookStore.Services.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\MaktabBookStore.Services.pdb
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\ref\MaktabBookStore.Services.dll
