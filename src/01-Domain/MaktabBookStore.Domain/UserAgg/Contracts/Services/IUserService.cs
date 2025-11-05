@@ -1,5 +1,6 @@
 using MaktabBookStore.Domain._common.DTOs;
 using MaktabBookStore.Domain.UserAgg.DTOs;
+using MaktabBookStore.Domain.UserAgg.Enums;
 
 namespace MaktabBookStore.Domain.UserAgg.Contracts.Services
 {
@@ -9,6 +10,10 @@ namespace MaktabBookStore.Domain.UserAgg.Contracts.Services
         ResultDTO<bool> Register(RegisterDTO dTO);
         ResultDTO<bool> IsMobileExist(string mobilenumber);
         List<GetUserDTO> GetUsers();
+        ResultDTO<bool> EditRole(int id, Role role);
+        ResultDTO<bool> ChangeUserCon(int id, bool con);
+
+
 
     }
 }

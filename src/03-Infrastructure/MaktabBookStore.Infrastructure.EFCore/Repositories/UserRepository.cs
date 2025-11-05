@@ -19,10 +19,34 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
             _dbcontext = dbContext;
         }
 
+        public bool ChangeUserCon(int id, bool con)
+        {
+            var user = new User { Id = id, IsActive = con };
+
+            _dbcontext.Users.Attach(user);
+            _dbcontext.Entry(user).Property(u => u.IsActive).IsModified = true;
+
+            return _dbcontext.SaveChanges() > 0;
+        }
+
         public bool DeleteUser(int id)
         {
             var user = _dbcontext.Users.FirstOrDefault(u => u.Id == id);
+
+            if (user is null)
+                return false;
+
             _dbcontext.Users.Remove(user);
+
+            return _dbcontext.SaveChanges() > 0;
+        }
+
+        public bool EditRole(int id, Role role)
+        {
+            var user = new User { Id = id, Role = role };
+
+            _dbcontext.Users.Attach(user);
+            _dbcontext.Entry(user).Property(u => u.Role).IsModified = true;
 
             return _dbcontext.SaveChanges() > 0;
         }

@@ -2,6 +2,8 @@
 using MaktabBookStore.Domain.UserAgg.Contracts.Repositories;
 using MaktabBookStore.Domain.UserAgg.Contracts.Services;
 using MaktabBookStore.Domain.UserAgg.DTOs;
+using MaktabBookStore.Domain.UserAgg.Entities;
+using MaktabBookStore.Domain.UserAgg.Enums;
 
 namespace MaktabBookStore.Services.Services
 {
@@ -12,6 +14,26 @@ namespace MaktabBookStore.Services.Services
         public UserService(IUserRepository userRepository)
         {
             _userRepository = userRepository;
+        }
+
+        public ResultDTO<bool> ChangeUserCon(int id, bool con)
+        {
+            var change = _userRepository.ChangeUserCon(id, con);
+
+            if (change)
+                return ResultDTO<bool>.Success(message: "وضعیت کاربر با موفقیت تغییر یافت.");
+
+            return ResultDTO<bool>.Fail(message: "مشکلی در تغییر وضعیت کاربر به وجود امد");
+        }
+
+        public ResultDTO<bool> EditRole(int id, Role role)
+        {
+            var edit = _userRepository.EditRole(id, role);
+
+            if (edit)
+                return ResultDTO<bool>.Success(message: "نقش با موفقیت تغییر کرد");
+
+            return ResultDTO<bool>.Fail(message: "مشکلی در تغییر نفش به وجود امد");
         }
 
         public List<GetUserDTO> GetUsers()

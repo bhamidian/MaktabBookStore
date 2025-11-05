@@ -15,3 +15,4 @@ C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\Mak
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\refint\MaktabBookStore.Services.dll
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\MaktabBookStore.Services.pdb
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\ref\MaktabBookStore.Services.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\02-Services\MaktabBookStore.Services\obj\Debug\net9.0\MaktabBookStore.Services.sourcelink.json

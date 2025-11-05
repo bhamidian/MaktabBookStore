@@ -9,3 +9,4 @@ C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\Makta
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\refint\MaktabBookStore.Domain.dll
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\MaktabBookStore.Domain.pdb
 C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\ref\MaktabBookStore.Domain.dll
+C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\01-Domain\MaktabBookStore.Domain\obj\Debug\net9.0\MaktabBookStore.Domain.sourcelink.json
