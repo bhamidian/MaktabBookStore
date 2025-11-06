@@ -1,15 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using MaktabBookStore.Domain.AuthorAgg.Contracts.Services;
 using MaktabBookStore.Domain.BookAgg.Contracts.Services;
 using MaktabBookStore.Domain.BookAgg.DTOs;
 using MaktabBookStore.Domain.CategoryAgg.Contracts.Services;
 using MaktabBookStore.Presentation.MVC.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace MaktabBookStore.Presentation.MVC.Controllers
 {

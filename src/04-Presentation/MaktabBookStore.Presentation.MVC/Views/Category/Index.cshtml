@@ -38,9 +38,9 @@
                             <td class="px-4 py-3 border-b">@category.Id</td>
                             <td class="px-4 py-3 border-b">@category.CategoryName</td>
                             <td class="px-4 py-3 border-b">
-                                @if (!string.IsNullOrEmpty(category.Logo))
+                                @if (!string.IsNullOrEmpty(category.LogoPath))
                                 {
-                                    <img src="~/@category.Logo"
+                                    <img src="~/@category.LogoPath"
                                          alt="لوگو @category.CategoryName"
                                          class="h-10 w-10 object-cover mx-auto rounded-md border border-gray-300" />
                                 }

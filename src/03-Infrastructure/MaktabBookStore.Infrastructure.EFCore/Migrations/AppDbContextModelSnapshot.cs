@@ -220,7 +220,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("Logo")
+                    b.Property<string>("LogoPath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -239,7 +239,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Migrations
                         {
                             Id = 1,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Logo = "📖",
+                            LogoPath = "images/Logos/novels.png",
                             Name = "رمان و داستان",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -247,7 +247,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Migrations
                         {
                             Id = 2,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Logo = "🏺",
+                            LogoPath = "images/Logos/vast.png",
                             Name = "علمی و تاریخی",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -255,7 +255,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Migrations
                         {
                             Id = 3,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Logo = "🧠",
+                            LogoPath = "images/Logos/brain.png",
                             Name = "فلسفه و منطق",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -263,7 +263,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Migrations
                         {
                             Id = 4,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Logo = "🧒",
+                            LogoPath = "images/Logos/philosophy.png",
                             Name = "کودک و نوجوان",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
@@ -271,7 +271,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Migrations
                         {
                             Id = 5,
                             CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Logo = "🎨",
+                            LogoPath = "images/Logos/art.png",
                             Name = "هنر و معماری",
                             UpdatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         });
