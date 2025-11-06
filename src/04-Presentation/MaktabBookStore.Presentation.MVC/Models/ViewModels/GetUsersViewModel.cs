@@ -2,14 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MaktabBookStore.Domain.UserAgg.DTOs;
 using MaktabBookStore.Domain.UserAgg.Enums;
 
 namespace MaktabBookStore.Presentation.MVC.Models.ViewModels
 {
-    public class EditUserViewModel
+    public class GetUsersViewModel
     {
-        public int Id { get; set; }
-        public Role Role { get; set; }
-        public string MobileNumber { get; set; }
+        public List<GetUserDTO> Users { get; set; }
     }
 }

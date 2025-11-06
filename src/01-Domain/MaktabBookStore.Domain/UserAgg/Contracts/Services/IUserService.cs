@@ -13,6 +13,9 @@ namespace MaktabBookStore.Domain.UserAgg.Contracts.Services
         ResultDTO<bool> EditRole(int id, Role role);
         ResultDTO<bool> ChangeUserCon(int id, bool con);
         ResultDTO<bool> DeleteUser(int id);
+        ResultDTO<GetUserDTO?> GetUserById(int id);
+        ResultDTO<bool> Update(GetUserDTO dTO);
+
 
 
 

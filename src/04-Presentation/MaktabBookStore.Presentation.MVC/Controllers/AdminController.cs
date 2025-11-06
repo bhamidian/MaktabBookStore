@@ -118,10 +118,6 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-
-
-
-
         public IActionResult GetBooks(GetBooksViewModel model)
         {
             model.GetBooks = _bookService.GetBooks();

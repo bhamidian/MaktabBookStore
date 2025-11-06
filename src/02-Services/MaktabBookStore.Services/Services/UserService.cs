@@ -1,4 +1,5 @@
 ﻿using MaktabBookStore.Domain._common.DTOs;
+using MaktabBookStore.Domain.BookAgg.Entities;
 using MaktabBookStore.Domain.UserAgg.Contracts.Repositories;
 using MaktabBookStore.Domain.UserAgg.Contracts.Services;
 using MaktabBookStore.Domain.UserAgg.DTOs;
@@ -38,12 +39,26 @@ namespace MaktabBookStore.Services.Services
 
         public ResultDTO<bool> EditRole(int id, Role role)
         {
-            var edit = _userRepository.EditRole(id, role);
+            throw new NotImplementedException();
+        }
 
-            if (edit)
-                return ResultDTO<bool>.Success(message: "نقش با موفقیت تغییر کرد");
+        // public ResultDTO<bool> EditRole(int id, Role role)
+        // {
+        //     var edit = _userRepository.EditRole(id, role);
 
-            return ResultDTO<bool>.Fail(message: "مشکلی در تغییر نفش به وجود امد");
+        //     if (edit)
+        //         return ResultDTO<bool>.Success(message: "نقش با موفقیت تغییر کرد");
+
+        //     return ResultDTO<bool>.Fail(message: "مشکلی در تغییر نفش به وجود امد");
+        // }
+
+        public ResultDTO<GetUserDTO?> GetUserById(int id)
+        {
+            var user = _userRepository.GetUserById(id);
+            if (user is null)
+                return ResultDTO<GetUserDTO?>.Fail(message: "کاربر پیدا مشد", data: null);
+
+            return ResultDTO<GetUserDTO?>.Success(data: user);
         }
 
         public List<GetUserDTO> GetUsers()
@@ -93,6 +108,16 @@ namespace MaktabBookStore.Services.Services
             {
                 return ResultDTO<bool>.Fail(message: " مشکلی هنگام ثبت نام شما به وجود امد");
             }
+        }
+
+        public ResultDTO<bool> Update(GetUserDTO dTO)
+        {
+            var user = _userRepository.Update(dTO);
+
+            if (user)
+                return ResultDTO<bool>.Success(message: "اطلاعات با موفقیت اپدیت شد");
+
+            return ResultDTO<bool>.Fail(message: "مشکلی در بروزرسانی اطلاعات به وجود امد");
         }
     }
 }

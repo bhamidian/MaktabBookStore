@@ -15,9 +15,15 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
         }
 
         [HttpGet]
-        public IActionResult Index(GetUserViewModel model)
+        public IActionResult Index()
         {
-            model.Users = _userService.GetUsers();
+            var users = _userService.GetUsers();
+
+            var model = new CombinedEditGetUserViewModel
+            {
+                Get = new GetUsersViewModel { Users = users },
+                Edit = new EditUserViewModel(),
+            };
 
             return View(model);
         }
@@ -43,40 +49,59 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
             return View(model);
         }
 
-        [HttpPost]
-        public IActionResult EditUserRole(EditUserViewModel model)
+        [HttpGet]
+        public IActionResult Update(int id, GetUserViewModel model)
         {
-            var edit = _userService.EditRole(model.Id, model.Role);
+            var user = _userService.GetUserById(id);
 
-            if (edit.IsSuccess)
+            if (user.Data is null)
             {
-                ViewBag.Success = edit.Message;
+                ViewBag.Error = user.Message;
                 return View();
             }
 
-            ViewBag.Error = edit.Message;
-            return View();
-        }
+            model.Id = user.Data.Id;
+            model.MobileNumber = user.Data.MobileNumber;
+            model.Role = user.Data.Role;
 
-        [HttpGet]
-        public IActionResult DeleteUser()
-        {
-            return View();
+            return View(model);
         }
 
         [HttpPost]
-        public IActionResult DeleteUser(int id)
+        public IActionResult Update(GetUserViewModel model)
+        {
+            var user = new GetUserDTO
+            {
+                Id = model.Id,
+                MobileNumber = model.MobileNumber,
+                Role = model.Role,
+            };
+
+            var result = _userService.Update(user);
+
+            if (!result.IsSuccess)
+            {
+                ViewBag.Error = result.Message;
+                return View(model);
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpPost]
+        public IActionResult DeleteConfirm(int id)
         {
             var remove = _userService.DeleteUser(id);
 
-            if (remove.IsSuccess)
+            var users = _userService.GetUsers();
+            var model = new CombinedEditGetUserViewModel
             {
-                ViewBag.Result = remove.Message;
-                return View("GetUsers");
-            }
+                Get = new GetUsersViewModel { Users = users },
+                Edit = new EditUserViewModel(),
+            };
 
-            ViewBag.Result = remove.Message;
-            return View("GetUsers");
+            ViewBag.Result = remove?.Message;
+            return View("Index", model);
         }
 
         [HttpGet]

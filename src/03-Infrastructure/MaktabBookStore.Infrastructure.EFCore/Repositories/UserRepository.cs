@@ -51,10 +51,30 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
             return _dbcontext.SaveChanges() > 0;
         }
 
+        public GetUserDTO? GetUserById(int id)
+        {
+            var user = _dbcontext.Users.FirstOrDefault(u => u.Id == id);
+
+            if (user is null)
+                return null;
+
+            return new GetUserDTO
+            {
+                Id = user.Id,
+                MobileNumber = user.MobileNumber,
+                Role = user.Role,
+            };
+        }
+
         public List<GetUserDTO> GetUsers()
         {
             return _dbcontext
-                .Users.Select(u => new GetUserDTO { MobileNumber = u.MobileNumber, Role = u.Role })
+                .Users.Select(u => new GetUserDTO
+                {
+                    Id = u.Id,
+                    MobileNumber = u.MobileNumber,
+                    Role = u.Role,
+                })
                 .ToList();
         }
 
@@ -89,6 +109,20 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
                 Role = dTO.Role,
             };
             _dbcontext.Users.Add(user);
+
+            return _dbcontext.SaveChanges() > 0;
+        }
+
+        public bool Update(GetUserDTO dTO)
+        {
+            var user = new User { Id = dTO.Id };
+            _dbcontext.Users.Attach(user);
+
+            _dbcontext.Entry(user).Property(u => u.MobileNumber).CurrentValue = dTO.MobileNumber;
+            _dbcontext.Entry(user).Property(u => u.MobileNumber).IsModified = true;
+
+            _dbcontext.Entry(user).Property(u => u.Role).CurrentValue = dTO.Role;
+            _dbcontext.Entry(user).Property(u => u.Role).IsModified = true;
 
             return _dbcontext.SaveChanges() > 0;
         }
