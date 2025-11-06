@@ -1,10 +1,6 @@
 using MaktabBookStore.Domain._common.Entities;
 using MaktabBookStore.Domain.AuthorAgg.Entities;
 using MaktabBookStore.Domain.CategoryAgg.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace MaktabBookStore.Domain.BookAgg.Entities
 {
@@ -20,6 +16,5 @@ namespace MaktabBookStore.Domain.BookAgg.Entities
         public int? AuthorId { get; set; }
         public Category Category { get; set; }
         public int CategoryId { get; set; }
-
     }
 }

@@ -5,134 +5,78 @@ using MaktabBookStore.Domain.CategoryAgg.DTOs;
 using MaktabBookStore.Infrastructure.EFCore.Persistence;
 using Microsoft.EntityFrameworkCore;
 
-namespace MaktabBookStore.Infrastructure.EFCore.Repositories
+public class BookRepository : IBookRepository
 {
-    public class BookRepository : IBookRepository
+    private readonly AppDbContext _dbContext;
+
+    public BookRepository(AppDbContext dbContext) => _dbContext = dbContext;
+
+    public bool AddBook(AddBookDTO dto)
     {
-        private readonly AppDbContext _dbContext;
-
-        public BookRepository(AppDbContext dbContext)
+        var entity = new Book
         {
-            _dbContext = dbContext;
-        }
+            BookTitle = dto.BookTitle,
+            Price = dto.Price,
+            Count = dto.Count,
+            Pages = dto.Pages,
+            ImagePath = dto.ImagePath,
+            PublishedDate = dto.PublishedDate,
+            CategoryId = dto.CategoryId,
+            AuthorId = dto.AuthorId,
+        };
 
-        public bool AddBook(AddBookDTO dTO)
-        {
-            var book = new Book
+        _dbContext.Books.Add(entity);
+        return _dbContext.SaveChanges() > 0;
+    }
+
+    public bool DeleteBook(int id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<GetBookDTO> GetBooks()
+    {
+        var books = _dbContext
+            .Books.Include(b => b.Author)
+            .Include(b => b.Category)
+            .OrderByDescending(b => b.PublishedDate)
+            .ToList()
+            .Select(g =>
             {
-                ImagePath = dTO.ImagePath,
-                Pages = dTO.Pages,
-                Price = dTO.Price,
-                BookTitle = dTO.BookTitle,
-                PublishedDate = dTO.PublishedDate,
-                Count = dTO.Count,
-                CategoryId = dTO.CategoryId,
-                AuthorId = dTO.AuthorId,
-            };
+                var fileName = Path.GetFileName(g.ImagePath ?? string.Empty);
+                var webPath = string.IsNullOrEmpty(fileName)
+                    ? "/images/Books/default.jpg"
+                    : $"/images/Books/{fileName}";
 
-            _dbContext.Books.Add(book);
-            return _dbContext.SaveChanges() > 0;
-        }
-
-        public bool DeleteBook(int id)
-        {
-            var book = _dbContext.Books.FirstOrDefault(b => b.Id == id);
-
-            if (book is null)
-            {
-                return false;
-            }
-            _dbContext.Books.Remove(book);
-
-            return _dbContext.SaveChanges() > 0;
-        }
-
-        public List<GetBookDTO> GetBooks()
-        {
-            try
-            {
-                var books = _dbContext
-                    .Books.Include(b => b.Author)
-                    .OrderByDescending(b => b.PublishedDate)
-                    .ToList()
-                    .Select(g =>
-                    {
-                        var fileName = Path.GetFileName(g.ImagePath ?? string.Empty);
-                        var webPath = string.IsNullOrEmpty(fileName)
-                            ? "/images/Books/default.jpg"
-                            : $"/images/Books/{fileName}";
-
-                        return new GetBookDTO
-                        {
-                            PublishedDate = g.PublishedDate,
-                            AuthorName = g.Author?.FullName ?? "",
-                            Title = g.BookTitle,
-                            Price = g.Price,
-                            Pages = g.Pages,
-                            ImagePath = webPath,
-                            CategoryId = g.CategoryId,
-                            AuthorId = g.AuthorId,
-                        };
-                    })
-                    .ToList();
-
-                return books;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
-        }
-
-        public List<GetBookDTO> GetBooks(int count)
-        {
-            try
-            {
-                var books = _dbContext
-                    .Books.Include(b => b.Author)
-                    .OrderByDescending(b => b.PublishedDate)
-                    .Take(count)
-                    .ToList()
-                    .Select(g =>
-                    {
-                        var fileName = Path.GetFileName(g.ImagePath ?? string.Empty);
-                        var webPath = string.IsNullOrEmpty(fileName)
-                            ? "/images/Books/default.jpg"
-                            : $"/images/Books/{fileName}";
-
-                        return new GetBookDTO
-                        {
-                            PublishedDate = g.PublishedDate,
-                            AuthorName = g.Author?.FullName ?? "",
-                            Title = g.BookTitle,
-                            Price = g.Price,
-                            Pages = g.Pages,
-                            ImagePath = webPath,
-                            CategoryId = g.CategoryId,
-                            AuthorId = g.AuthorId,
-                        };
-                    })
-                    .ToList();
-
-                return books;
-            }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
-        }
-
-        public List<GetCategoriesDTO> GetCategories()
-        {
-            var categories = _dbContext
-                .Categories.Select(c => new GetCategoriesDTO
+                return new GetBookDTO
                 {
-                    CategoryName = c.Name,
-                    Logo = c.Logo,
-                })
-                .ToList();
+                    PublishedDate = g.PublishedDate,
+                    AuthorName = g.Author?.FullName ?? "",
+                    CategoryName = g.Category?.Name ?? "",
+                    Title = g.BookTitle,
+                    Price = g.Price,
+                    Pages = g.Pages,
+                    ImagePath = webPath,
+                    CategoryId = g.CategoryId,
+                    AuthorId = g.AuthorId,
+                };
+            })
+            .ToList();
 
-            return categories;
-        }
+        return books;
+    }
+
+    public List<GetBookDTO> GetBooks(int count) => GetBooks().Take(count).ToList();
+
+    public List<GetCategoriesDTO> GetCategories()
+    {
+        return _dbContext
+            .Categories.Select(c => new GetCategoriesDTO
+            {
+                Id = c.Id,
+                Logo = c.Logo,
+                CategoryName = c.Name,
+            })
+            .ToList();
     }
 }

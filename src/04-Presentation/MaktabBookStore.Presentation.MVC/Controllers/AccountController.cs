@@ -4,7 +4,6 @@ using MaktabBookStore.Domain.UserAgg.Enums;
 using MaktabBookStore.Infrastructure.EFCore.InMemory;
 using MaktabBookStore.Presentation.MVC.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Identity.Client;
 
 namespace MaktabBookStore.Presentation.MVC.Controllers
 {

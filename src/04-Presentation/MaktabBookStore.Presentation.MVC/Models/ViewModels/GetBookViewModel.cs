@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MaktabBookStore.Domain.BookAgg.DTOs
+namespace MaktabBookStore.Presentation.MVC.Models.ViewModels
 {
-    public class GetBookDTO
+    public class GetBookViewModel
     {
         public DateTime? PublishedDate { get; set; }
         public decimal Price { get; set; }
@@ -14,7 +14,6 @@ namespace MaktabBookStore.Domain.BookAgg.DTOs
         public string Title { get; set; }
         public int Pages { get; set; }
         public string ImagePath { get; set; }
-        public int? CategoryId { get; set; }
-        public string CategoryName { get; set; }
+        public int CategoryId { get; set; }
     }
 }

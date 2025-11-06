@@ -8,7 +8,6 @@ using Microsoft.Extensions.Logging;
 
 namespace MaktabBookStore.Presentation.MVC.Controllers
 {
-    [Route("[controller]")]
     public class CategoryController : Controller
     {
         private readonly ILogger<CategoryController> _logger;

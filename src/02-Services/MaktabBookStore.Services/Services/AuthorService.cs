@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using MaktabBookStore.Domain._common.DTOs;
 using MaktabBookStore.Domain.AuthorAgg.Contracts.Repositories;
 using MaktabBookStore.Domain.AuthorAgg.Contracts.Services;
 using MaktabBookStore.Domain.AuthorAgg.DTOs;
+using MaktabBookStore.Domain.AuthorAgg.Entities;
 
 namespace MaktabBookStore.Services.Services
 {
@@ -16,6 +14,17 @@ namespace MaktabBookStore.Services.Services
         public AuthorService(IAuthorRepository authorRepository)
         {
             _authorRepository = authorRepository;
+        }
+
+        public ResultDTO<bool> Create(string Name)
+        {
+            var author = _authorRepository.Create(Name);
+
+            if (author)
+            {
+                return ResultDTO<bool>.Success(message: "نویسنده اضافه شد");
+            }
+            return ResultDTO<bool>.Fail(message: "مشکلی در ایجاد نویسنده به وجود امد");
         }
 
         public List<GetAuthorDTO> GetAll()

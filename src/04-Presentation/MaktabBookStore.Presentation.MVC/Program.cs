@@ -21,16 +21,15 @@ namespace MaktabBookStore.Presentation.MVC
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-                    builder.Services.AddScoped<IBookService, BookService>();
-                    builder.Services.AddScoped<IBookRepository, BookRepository>();
-                    builder.Services.AddScoped<IUserRepository, UserRepository>();
-                    builder.Services.AddScoped<IUserService, UserService>();
-                    builder.Services.AddScoped<ICategoryService, CategoryService>();
-                    builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
-                    builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
-                    builder.Services.AddScoped<IAuthorService, AuthorService>();
-                    builder.Services.AddDbContext<AppDbContext>();
-
+            builder.Services.AddScoped<IBookRepository, BookRepository>();
+            builder.Services.AddScoped<IBookService, BookService>();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<ICategoryService, CategoryService>();
+            builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
+            builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+            builder.Services.AddScoped<IAuthorService, AuthorService>();
+            builder.Services.AddDbContext<AppDbContext>();
 
             var app = builder.Build();
 
@@ -49,8 +48,9 @@ namespace MaktabBookStore.Presentation.MVC
 
             app.MapStaticAssets();
             app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}")
+                    name: "default",
+                    pattern: "{controller=Home}/{action=Index}/{id?}"
+                )
                 .WithStaticAssets();
 
             app.Run();

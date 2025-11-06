@@ -51,16 +51,17 @@ namespace MaktabBookStore.Services.Services
         {
             var books = _bookRepo.GetBooks();
 
-            return books
-                .Select(s => new GetBookDTO
-                {
-                    AuthorName = s.AuthorName,
-                    Pages = s.Pages,
-                    ImagePath = s.ImagePath,
-                    Price = s.Price,
-                    Title = s.Title,
-                })
-                .ToList();
+            // return books
+            //     .Select(s => new GetBookDTO
+            //     {
+            //         AuthorName = s.AuthorName,
+            //         Pages = s.Pages,
+            //         ImagePath = s.ImagePath,
+            //         Price = s.Price,
+            //         Title = s.Title,
+            //     })
+            //     .ToList();
+            return books;
         }
 
         public List<GetCategoriesDTO> GetCategories()

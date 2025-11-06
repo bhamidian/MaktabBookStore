@@ -9,6 +9,6 @@ namespace MaktabBookStore.Domain.AuthorAgg.Contracts.Repositories
     public interface IAuthorRepository
     {
         List<GetAuthorDTO> GetAll();
-
+        bool Create(string Name);
     }
 }
