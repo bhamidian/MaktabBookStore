@@ -74,7 +74,7 @@ public class BookRepository : IBookRepository
             .Categories.Select(c => new GetCategoriesDTO
             {
                 Id = c.Id,
-                Logo = c.Logo,
+                LogoPath = c.LogoPath,
                 CategoryName = c.Name,
             })
             .ToList();

@@ -43,10 +43,13 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            ViewBag.Categories = _categoryService.GetAll();
-            ViewBag.Authors = _authorService.GetAll();
+            var model = new AddBookViewModel
+            {
+                GetAuthors = _authorService.GetAll(),
+                GetCategories = _categoryService.GetAll(),
+            };
 
-            return View(new AddBookViewModel());
+            return View(model);
         }
 
         [HttpPost]

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using MaktabBookStore.Domain.CategoryAgg.Contracts.Services;
+using MaktabBookStore.Presentation.MVC.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -10,22 +12,20 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ILogger<CategoryController> _logger;
+        private readonly ICategoryService _categroyService;
 
-        public CategoryController(ILogger<CategoryController> logger)
+        public CategoryController(ICategoryService categoryService)
         {
-            _logger = logger;
+            _categroyService = categoryService;
         }
 
-        public IActionResult Index()
+        [HttpGet]
+        public IActionResult Index(GetCategoriesViewModel model)
         {
-            return View();
-        }
+            var categories = _categroyService.GetAll();
+            model.GetCategories = categories;
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View("Error!");
+            return View(model);
         }
     }
 }

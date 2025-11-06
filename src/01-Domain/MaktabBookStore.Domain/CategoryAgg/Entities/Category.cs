@@ -7,6 +7,6 @@ namespace MaktabBookStore.Domain.CategoryAgg.Entities
     {
         public string Name { get; set; }
         List<Book> Books { get; set; }
-        public string? Logo { get; set; }
+        public string? LogoPath { get; set; }
     }
 }

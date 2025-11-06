@@ -9,6 +9,6 @@ namespace MaktabBookStore.Domain.CategoryAgg.DTOs
     {
         public int Id { get; set; }
         public string CategoryName { get; set; } = string.Empty;
-        public string Logo { get; set; } = string.Empty;
+        public string LogoPath { get; set; } = string.Empty;
     }
 }

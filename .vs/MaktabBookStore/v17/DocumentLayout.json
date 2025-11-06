@@ -238,8 +238,7 @@
               "RelativeToolTip": "src\\04-Presentation\\MaktabBookStore.Presentation.MVC\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T11:38:03.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-04T11:38:03.144Z"
             },
             {
               "$type": "Document",
@@ -299,8 +298,7 @@
               "RelativeToolTip": "src\\02-Services\\MaktabBookStore.Services\\Services\\BookService.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwCwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-02T08:42:31.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-02T08:42:31.381Z"
             },
             {
               "$type": "Document",
@@ -310,7 +308,7 @@
               "RelativeDocumentMoniker": "src\\02-Services\\MaktabBookStore.Services\\Services\\CategoryService.cs",
               "ToolTip": "C:\\Users\\Abolfazl\\Documents\\Backend-Projects\\MaktabBookStore\\src\\02-Services\\MaktabBookStore.Services\\Services\\CategoryService.cs",
               "RelativeToolTip": "src\\02-Services\\MaktabBookStore.Services\\Services\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-02T08:43:09.054Z",
               "EditorCaption": ""
