@@ -91,17 +91,10 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
         [HttpPost]
         public IActionResult DeleteConfirm(int id)
         {
-            var remove = _userService.DeleteUser(id);
+            var result = _userService.DeleteUser(id);
 
-            var users = _userService.GetUsers();
-            var model = new CombinedEditGetUserViewModel
-            {
-                Get = new GetUsersViewModel { Users = users },
-                Edit = new EditUserViewModel(),
-            };
-
-            ViewBag.Result = remove?.Message;
-            return View("Index", model);
+            TempData["ResultMessage"] = result?.Message;
+            return RedirectToAction("Index");
         }
 
         [HttpGet]

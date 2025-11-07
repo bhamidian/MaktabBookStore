@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using MaktabBookStore.Domain.CategoryAgg.Contracts.Services;
+using MaktabBookStore.Domain.CategoryAgg.DTOs;
 using MaktabBookStore.Presentation.MVC.Models.ViewModels;
 using MaktabBookStore.Services.Services;
 using Microsoft.AspNetCore.Mvc;
@@ -33,6 +34,79 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(GetCategoryViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            string relativePath = null;
+
+            if (model.Image != null && model.Image.Length > 0)
+            {
+                try
+                {
+                    var uploadDir = Path.Combine(
+                        Directory.GetCurrentDirectory(),
+                        "wwwroot",
+                        "images",
+                        "Logos"
+                    );
+                    if (!Directory.Exists(uploadDir))
+                    {
+                        Directory.CreateDirectory(uploadDir);
+                    }
+
+                    var originalFileName = Path.GetFileName(model.Image.FileName ?? string.Empty);
+                    var extension = Path.GetExtension(originalFileName);
+
+                    var safeFileName = $"{Guid.NewGuid()}{extension}";
+
+                    var filePath = Path.Combine(uploadDir, safeFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        model.Image.CopyTo(stream);
+                    }
+
+                    relativePath = Path.Combine("images", "Logos", safeFileName).Replace("\\", "/");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError(
+                        "",
+                        "در ذخیره شدن فایل مشکلی به وجود امد " + ex.Message
+                    );
+                    return View(model);
+                }
+            }
+
+            var dto = new GetCategoriesDTO { CategoryName = model.Name, LogoPath = relativePath };
+
+            var result = _categoryService.Add(dto);
+
+            if (result.IsSuccess)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ViewBag.Message = result.Message;
+                ViewBag.IsSuccess = false;
+                return View(model);
+            }
+        }
+
+        [HttpPost]
+        public IActionResult Delete(int id)
+        {
+            var result = _categoryService.Delete(id);
+            TempData["ResultMessage"] = result?.Message;
+            return RedirectToAction("Index");
         }
     }
 }

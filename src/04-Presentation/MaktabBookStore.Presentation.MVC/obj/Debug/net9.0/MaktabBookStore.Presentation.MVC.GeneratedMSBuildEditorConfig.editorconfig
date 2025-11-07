@@ -15,6 +15,8 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v9.0
 build_property.RootNamespace = MaktabBookStore.Presentation.MVC
 build_property.RootNamespace = MaktabBookStore.Presentation.MVC
 build_property.ProjectDir = C:\Users\Abolfazl\Documents\Backend-Projects\MaktabBookStore\src\04-Presentation\MaktabBookStore.Presentation.MVC\
@@ -46,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Abolfazl/Documents/Backend-Projects/MaktabBookStore/src/04-Presentation/MaktabBookStore.Presentation.MVC/Views/Book/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abolfazl/Documents/Backend-Projects/MaktabBookStore/src/04-Presentation/MaktabBookStore.Presentation.MVC/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Abolfazl/Documents/Backend-Projects/MaktabBookStore/src/04-Presentation/MaktabBookStore.Presentation.MVC/Views/Category/Index.cshtml]
