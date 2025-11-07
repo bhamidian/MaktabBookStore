@@ -40,72 +40,48 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
         public IActionResult Create(GetCategoryViewModel model)
         {
             if (!ModelState.IsValid)
-            {
                 return View(model);
-            }
 
             string relativePath = null;
 
             if (model.Image != null && model.Image.Length > 0)
             {
-                try
+                var uploadDir = Path.Combine(
+                    Directory.GetCurrentDirectory(),
+                    "wwwroot",
+                    "images",
+                    "Logos"
+                );
+
+                var originalFileName = Path.GetFileName(model.Image.FileName ?? string.Empty);
+                var extension = Path.GetExtension(originalFileName);
+                var safeFileName = $"{Guid.NewGuid()}{extension}";
+
+                var filePath = Path.Combine(uploadDir, safeFileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
                 {
-                    var uploadDir = Path.Combine(
-                        Directory.GetCurrentDirectory(),
-                        "wwwroot",
-                        "images",
-                        "Logos"
-                    );
-                    if (!Directory.Exists(uploadDir))
-                    {
-                        Directory.CreateDirectory(uploadDir);
-                    }
-
-                    var originalFileName = Path.GetFileName(model.Image.FileName ?? string.Empty);
-                    var extension = Path.GetExtension(originalFileName);
-
-                    var safeFileName = $"{Guid.NewGuid()}{extension}";
-
-                    var filePath = Path.Combine(uploadDir, safeFileName);
-
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        model.Image.CopyTo(stream);
-                    }
-
-                    relativePath = Path.Combine("images", "Logos", safeFileName).Replace("\\", "/");
+                    model.Image.CopyTo(stream);
                 }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError(
-                        "",
-                        "در ذخیره شدن فایل مشکلی به وجود امد " + ex.Message
-                    );
-                    return View(model);
-                }
+
+                relativePath = Path.Combine("images", "Logos", safeFileName).Replace("\\", "/");
             }
 
             var dto = new GetCategoriesDTO { CategoryName = model.Name, LogoPath = relativePath };
 
-            var result = _categoryService.Add(dto);
+            var result = _categoryService.Create(dto);
 
             if (result.IsSuccess)
-            {
                 return RedirectToAction("Index");
-            }
-            else
-            {
-                ViewBag.Message = result.Message;
-                ViewBag.IsSuccess = false;
-                return View(model);
-            }
+
+            ViewBag.Message = result.Message;
+            ViewBag.IsSuccess = false;
+            return View(model);
         }
 
         [HttpPost]
         public IActionResult Delete(int id)
         {
             var result = _categoryService.Delete(id);
-            TempData["ResultMessage"] = result?.Message;
             return RedirectToAction("Index");
         }
 
@@ -133,46 +109,30 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
         public IActionResult Update(GetCategoryViewModel model)
         {
             if (!ModelState.IsValid)
-            {
                 return View(model);
-            }
 
-            string relativePath = model.LogoPath; // اگر فایل جدید آپلود نشه، مسیر قبلی بمونه
+            string relativePath = model.LogoPath;
 
             if (model.Image != null && model.Image.Length > 0)
             {
-                try
+                var uploadDir = Path.Combine(
+                    Directory.GetCurrentDirectory(),
+                    "wwwroot",
+                    "images",
+                    "Logos"
+                );
+
+                var originalFileName = Path.GetFileName(model.Image.FileName ?? string.Empty);
+                var extension = Path.GetExtension(originalFileName);
+                var safeFileName = $"{Guid.NewGuid()}{extension}";
+
+                var filePath = Path.Combine(uploadDir, safeFileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
                 {
-                    var uploadDir = Path.Combine(
-                        Directory.GetCurrentDirectory(),
-                        "wwwroot",
-                        "images",
-                        "Logos"
-                    );
-                    if (!Directory.Exists(uploadDir))
-                        Directory.CreateDirectory(uploadDir);
-
-                    var originalFileName = Path.GetFileName(model.Image.FileName ?? string.Empty);
-                    var extension = Path.GetExtension(originalFileName);
-                    var safeFileName = $"{Guid.NewGuid()}{extension}";
-
-                    var filePath = Path.Combine(uploadDir, safeFileName);
-
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        model.Image.CopyTo(stream);
-                    }
-
-                    relativePath = Path.Combine("images", "Logos", safeFileName).Replace("\\", "/");
+                    model.Image.CopyTo(stream);
                 }
-                catch (Exception ex)
-                {
-                    ModelState.AddModelError(
-                        "",
-                        "در ذخیره شدن فایل مشکلی به وجود امد " + ex.Message
-                    );
-                    return View(model);
-                }
+
+                relativePath = Path.Combine("images", "Logos", safeFileName).Replace("\\", "/");
             }
 
             var dto = new GetCategoriesDTO
@@ -185,16 +145,11 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
             var result = _categoryService.Update(dto);
 
             if (result.IsSuccess)
-            {
-                TempData["Message"] = "ویرایش با موفقیت انجام شد.";
                 return RedirectToAction("Index");
-            }
-            else
-            {
-                ViewBag.Message = result.Message;
-                ViewBag.IsSuccess = false;
-                return View(model);
-            }
+
+            ViewBag.Message = result.Message;
+            ViewBag.IsSuccess = false;
+            return View(model);
         }
     }
 }

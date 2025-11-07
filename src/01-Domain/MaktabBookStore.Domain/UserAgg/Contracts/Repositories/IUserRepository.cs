@@ -7,11 +7,10 @@ namespace MaktabBookStore.Domain.UserAgg.Contracts.Repositories
     {
         UserLoginDTO? Login(string MobileNumber, string Password);
         bool Register(RegisterDTO dTO);
-        List<GetUserDTO> GetUsers();
+        List<GetUserDTO> GetAll();
         bool Update(GetUserDTO dTO);
         bool IsMobileNumberExist(string mobilenumber);
-        bool DeleteUser(int id);
-        bool ChangeUserCon(int id, bool con);
-        GetUserDTO? GetUserById(int id);
+        bool Delete(int id);
+        GetUserDTO? GetById(int id);
     }
 }

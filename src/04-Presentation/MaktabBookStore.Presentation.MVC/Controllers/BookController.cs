@@ -27,7 +27,7 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
         [HttpGet]
         public IActionResult Index(GetBooksViewModel model)
         {
-            var books = _bookService.GetBooks();
+            var books = _bookService.GetAll();
 
             model.GetBooks = books;
 
@@ -83,7 +83,7 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
                 AuthorId = model.AuthorId,
             };
 
-            var book = _bookService.AddBook(newbook);
+            var book = _bookService.Create(newbook);
 
             return RedirectToAction("Index", "Book");
         }

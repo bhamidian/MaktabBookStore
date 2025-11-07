@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MaktabBookStore.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9408838cdb9d0b88cde7c48c66bce8eab59b4f05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d629c7cbaf0b7f42af4d305d962bec6eb4abfd32")]
 [assembly: System.Reflection.AssemblyProductAttribute("MaktabBookStore.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MaktabBookStore.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

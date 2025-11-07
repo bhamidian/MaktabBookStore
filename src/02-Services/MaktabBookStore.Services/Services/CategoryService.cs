@@ -12,9 +12,9 @@ namespace MaktabBookStore.Services.Services
         public CategoryService(ICategoryRepository categoryRepository) =>
             _categoryRepository = categoryRepository;
 
-        public ResultDTO<bool> Add(GetCategoriesDTO dTO)
+        public ResultDTO<bool> Create(GetCategoriesDTO dTO)
         {
-            var result = _categoryRepository.Add(dTO);
+            var result = _categoryRepository.Create(dTO);
 
             if (result)
                 return ResultDTO<bool>.Success("دسته بندی با موفقیت اضافه شد");
@@ -34,7 +34,7 @@ namespace MaktabBookStore.Services.Services
 
         public ResultDTO<GetCategoriesDTO?> Get(int id)
         {
-            var result = _categoryRepository.Get(id);
+            var result = _categoryRepository.GetById(id);
 
             if (result is null)
                 return ResultDTO<GetCategoriesDTO?>.Fail("دسته بندی پیدا نشد");

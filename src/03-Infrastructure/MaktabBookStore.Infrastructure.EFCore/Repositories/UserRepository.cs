@@ -7,6 +7,7 @@ using MaktabBookStore.Domain.UserAgg.DTOs;
 using MaktabBookStore.Domain.UserAgg.Entities;
 using MaktabBookStore.Domain.UserAgg.Enums;
 using MaktabBookStore.Infrastructure.EFCore.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace MaktabBookStore.Infrastructure.EFCore.Repositories
 {
@@ -19,17 +20,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
             _dbcontext = dbContext;
         }
 
-        public bool ChangeUserCon(int id, bool con)
-        {
-            // var user = new User { Id = id, IsActive = con };
-
-            // _dbcontext.Users.Attach(user);
-            // _dbcontext.Entry(user).Property(u => u.IsActive).IsModified = true;
-
-            return _dbcontext.SaveChanges() > 0;
-        }
-
-        public bool DeleteUser(int id)
+        public bool Delete(int id)
         {
             var user = _dbcontext.Users.FirstOrDefault(u => u.Id == id);
 
@@ -41,17 +32,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
             return _dbcontext.SaveChanges() > 0;
         }
 
-        public bool EditRole(int id, Role role)
-        {
-            var user = new User { Id = id, Role = role };
-
-            _dbcontext.Users.Attach(user);
-            _dbcontext.Entry(user).Property(u => u.Role).IsModified = true;
-
-            return _dbcontext.SaveChanges() > 0;
-        }
-
-        public GetUserDTO? GetUserById(int id)
+        public GetUserDTO? GetById(int id)
         {
             var user = _dbcontext.Users.FirstOrDefault(u => u.Id == id);
 
@@ -66,7 +47,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
             };
         }
 
-        public List<GetUserDTO> GetUsers()
+        public List<GetUserDTO> GetAll()
         {
             return _dbcontext
                 .Users.Select(u => new GetUserDTO
@@ -115,16 +96,14 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
 
         public bool Update(GetUserDTO dTO)
         {
-            var user = new User { Id = dTO.Id };
-            _dbcontext.Users.Attach(user);
+            var update = _dbcontext
+                .Users.Where(u => u.Id == dTO.Id)
+                .ExecuteUpdate(o =>
+                    o.SetProperty(u => u.MobileNumber, dTO.MobileNumber)
+                        .SetProperty(u => u.Role, dTO.Role)
+                );
 
-            _dbcontext.Entry(user).Property(u => u.MobileNumber).CurrentValue = dTO.MobileNumber;
-            _dbcontext.Entry(user).Property(u => u.MobileNumber).IsModified = true;
-
-            _dbcontext.Entry(user).Property(u => u.Role).CurrentValue = dTO.Role;
-            _dbcontext.Entry(user).Property(u => u.Role).IsModified = true;
-
-            return _dbcontext.SaveChanges() > 0;
+            return update > 0;
         }
     }
 }

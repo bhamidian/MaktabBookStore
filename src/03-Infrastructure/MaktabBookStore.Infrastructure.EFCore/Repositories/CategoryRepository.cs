@@ -2,6 +2,7 @@ using MaktabBookStore.Domain.CategoryAgg.Contracts.Repositories;
 using MaktabBookStore.Domain.CategoryAgg.DTOs;
 using MaktabBookStore.Domain.CategoryAgg.Entities;
 using MaktabBookStore.Infrastructure.EFCore.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace MaktabBookStore.Infrastructure.EFCore.Repositories
 {
@@ -11,7 +12,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
 
         public CategoryRepository(AppDbContext dbContext) => _dbContext = dbContext;
 
-        public bool Add(GetCategoriesDTO dTO)
+        public bool Create(GetCategoriesDTO dTO)
         {
             var category = new Category
             {
@@ -36,7 +37,7 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
             return _dbContext.SaveChanges() > 0;
         }
 
-        public GetCategoriesDTO? Get(int id)
+        public GetCategoriesDTO? GetById(int id)
         {
             var category = _dbContext.Categories.FirstOrDefault(c => c.Id == id);
             if (category is null)
@@ -76,17 +77,15 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
 
         public bool Update(GetCategoriesDTO dTO)
         {
-            var category = new Category { Id = dTO.Id };
+            var update = _dbContext
+                .Categories.Where(c => c.Id == dTO.Id)
+                .ExecuteUpdate(setters =>
+                    setters
+                        .SetProperty(c => c.Name, dTO.CategoryName)
+                        .SetProperty(c => c.LogoPath, dTO.LogoPath)
+                );
 
-            _dbContext.Categories.Attach(category);
-
-            _dbContext.Entry(category).Property(c => c.Name).CurrentValue = dTO.CategoryName;
-            _dbContext.Entry(category).Property(c => c.Name).IsModified = true;
-
-            _dbContext.Entry(category).Property(c => c.LogoPath).CurrentValue = dTO.LogoPath;
-            _dbContext.Entry(category).Property(c => c.LogoPath).IsModified = true;
-
-            return _dbContext.SaveChanges() > 0;
+            return update > 0;
         }
     }
 }

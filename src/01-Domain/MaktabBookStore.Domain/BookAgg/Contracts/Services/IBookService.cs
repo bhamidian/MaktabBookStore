@@ -10,10 +10,9 @@ namespace MaktabBookStore.Domain.BookAgg.Contracts.Services
 {
     public interface IBookService
     {
-        List<GetBookDTO> GetBooks(int count);
-        List<GetBookDTO> GetBooks();
-
+        List<GetBookDTO> GetAll(int count);
+        List<GetBookDTO> GetAll();
         List<GetCategoriesDTO> GetCategories();
-        ResultDTO<bool> AddBook(AddBookDTO dTO);
+        ResultDTO<bool> Create(AddBookDTO dTO);
     }
 }

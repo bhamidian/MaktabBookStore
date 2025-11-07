@@ -1,10 +1,7 @@
 ﻿using MaktabBookStore.Domain._common.DTOs;
-using MaktabBookStore.Domain.BookAgg.Entities;
 using MaktabBookStore.Domain.UserAgg.Contracts.Repositories;
 using MaktabBookStore.Domain.UserAgg.Contracts.Services;
 using MaktabBookStore.Domain.UserAgg.DTOs;
-using MaktabBookStore.Domain.UserAgg.Entities;
-using MaktabBookStore.Domain.UserAgg.Enums;
 
 namespace MaktabBookStore.Services.Services
 {
@@ -17,19 +14,9 @@ namespace MaktabBookStore.Services.Services
             _userRepository = userRepository;
         }
 
-        public ResultDTO<bool> ChangeUserCon(int id, bool con)
+        public ResultDTO<bool> Delete(int id)
         {
-            var change = _userRepository.ChangeUserCon(id, con);
-
-            if (change)
-                return ResultDTO<bool>.Success(message: "وضعیت کاربر با موفقیت تغییر یافت.");
-
-            return ResultDTO<bool>.Fail(message: "مشکلی در تغییر وضعیت کاربر به وجود امد");
-        }
-
-        public ResultDTO<bool> DeleteUser(int id)
-        {
-            var delete = _userRepository.DeleteUser(id);
+            var delete = _userRepository.Delete(id);
 
             if (delete)
                 return ResultDTO<bool>.Success("کاربر با موفقیت حذف شد");
@@ -37,33 +24,18 @@ namespace MaktabBookStore.Services.Services
             return ResultDTO<bool>.Fail("مشکلی در حذف کاربر پیش امد");
         }
 
-        public ResultDTO<bool> EditRole(int id, Role role)
+        public ResultDTO<GetUserDTO?> GetById(int id)
         {
-            throw new NotImplementedException();
-        }
-
-        // public ResultDTO<bool> EditRole(int id, Role role)
-        // {
-        //     var edit = _userRepository.EditRole(id, role);
-
-        //     if (edit)
-        //         return ResultDTO<bool>.Success(message: "نقش با موفقیت تغییر کرد");
-
-        //     return ResultDTO<bool>.Fail(message: "مشکلی در تغییر نفش به وجود امد");
-        // }
-
-        public ResultDTO<GetUserDTO?> GetUserById(int id)
-        {
-            var user = _userRepository.GetUserById(id);
+            var user = _userRepository.GetById(id);
             if (user is null)
-                return ResultDTO<GetUserDTO?>.Fail(message: "کاربر پیدا مشد", data: null);
+                return ResultDTO<GetUserDTO?>.Fail(message: "کاربر پیدا نشد", data: null);
 
             return ResultDTO<GetUserDTO?>.Success(data: user);
         }
 
-        public List<GetUserDTO> GetUsers()
+        public List<GetUserDTO> GetAll()
         {
-            return _userRepository.GetUsers();
+            return _userRepository.GetAll();
         }
 
         public ResultDTO<bool> IsMobileExist(string mobilenumber)

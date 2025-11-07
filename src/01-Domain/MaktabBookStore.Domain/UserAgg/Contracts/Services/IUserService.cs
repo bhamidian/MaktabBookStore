@@ -9,16 +9,10 @@ namespace MaktabBookStore.Domain.UserAgg.Contracts.Services
         ResultDTO<UserLoginDTO> Login(string mobilenumber, string password);
         ResultDTO<bool> Register(RegisterDTO dTO);
         ResultDTO<bool> IsMobileExist(string mobilenumber);
-        List<GetUserDTO> GetUsers();
-        ResultDTO<bool> EditRole(int id, Role role);
-        ResultDTO<bool> ChangeUserCon(int id, bool con);
-        ResultDTO<bool> DeleteUser(int id);
-        ResultDTO<GetUserDTO?> GetUserById(int id);
+        List<GetUserDTO> GetAll();
+        // ResultDTO<bool> ChangeUserCon(int id, bool con);
+        ResultDTO<bool> Delete(int id);
+        ResultDTO<GetUserDTO?> GetById(int id);
         ResultDTO<bool> Update(GetUserDTO dTO);
-
-
-
-
-
     }
 }

@@ -17,13 +17,8 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            var users = _userService.GetUsers();
-
-            var model = new CombinedEditGetUserViewModel
-            {
-                Get = new GetUsersViewModel { Users = users },
-                Edit = new EditUserViewModel(),
-            };
+            var users = _userService.GetAll();
+            var model = new GetUsersViewModel { Users = users };
 
             return View(model);
         }
@@ -52,7 +47,7 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
         [HttpGet]
         public IActionResult Update(int id, GetUserViewModel model)
         {
-            var user = _userService.GetUserById(id);
+            var user = _userService.GetById(id);
 
             if (user.Data is null)
             {
@@ -89,27 +84,11 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
         }
 
         [HttpPost]
-        public IActionResult DeleteConfirm(int id)
+        public IActionResult Delete(int id)
         {
-            var result = _userService.DeleteUser(id);
+            var result = _userService.Delete(id);
 
-            TempData["ResultMessage"] = result?.Message;
             return RedirectToAction("Index");
         }
-
-        [HttpGet]
-        public IActionResult EditRoleUser()
-        {
-            return View(new EditUserViewModel());
-        }
-
-        // [HttpGet]
-        // public IActionResult EditRoleUser(int id)
-        // {
-
-        //     var model = new EditUserViewModel { Id = user.Id, Role = user.Role };
-
-        //     return View(model);
-        // }
     }
 }

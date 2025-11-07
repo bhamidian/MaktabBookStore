@@ -11,7 +11,7 @@ public class BookRepository : IBookRepository
 
     public BookRepository(AppDbContext dbContext) => _dbContext = dbContext;
 
-    public bool AddBook(AddBookDTO dto)
+    public bool Create(AddBookDTO dto)
     {
         var entity = new Book
         {
@@ -29,12 +29,12 @@ public class BookRepository : IBookRepository
         return _dbContext.SaveChanges() > 0;
     }
 
-    public bool DeleteBook(int id)
+    public bool Delete(int id)
     {
         throw new NotImplementedException();
     }
 
-    public List<GetBookDTO> GetBooks()
+    public List<GetBookDTO> GetAll()
     {
         var books = _dbContext
             .Books.Include(b => b.Author)
@@ -66,7 +66,7 @@ public class BookRepository : IBookRepository
         return books;
     }
 
-    public List<GetBookDTO> GetBooks(int count) => GetBooks().Take(count).ToList();
+    public List<GetBookDTO> GetAll(int count) => GetAll().Take(count).ToList();
 
     public List<GetCategoriesDTO> GetCategories()
     {

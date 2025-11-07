@@ -34,12 +34,6 @@
                 </a>
             </div>
 
-            @if (ViewBag.Message != null)
-            {
-                <div class="mt-6 text-center font-medium @((ViewBag.IsSuccess ?? false) ? "text-green-600" : "text-red-600")">
-                    @ViewBag.Message
-                </div>
-            }
         </form>
     </div>
 </section>

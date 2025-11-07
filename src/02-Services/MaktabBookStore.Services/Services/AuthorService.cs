@@ -1,9 +1,7 @@
-﻿
-using MaktabBookStore.Domain._common.DTOs;
+﻿using MaktabBookStore.Domain._common.DTOs;
 using MaktabBookStore.Domain.AuthorAgg.Contracts.Repositories;
 using MaktabBookStore.Domain.AuthorAgg.Contracts.Services;
 using MaktabBookStore.Domain.AuthorAgg.DTOs;
-using MaktabBookStore.Domain.AuthorAgg.Entities;
 
 namespace MaktabBookStore.Services.Services
 {

@@ -5,10 +5,10 @@ namespace MaktabBookStore.Domain.BookAgg.Contracts.Repositories
 {
     public interface IBookRepository
     {
-        List<GetBookDTO> GetBooks(int count);
-        List<GetBookDTO> GetBooks();
+        List<GetBookDTO> GetAll(int count);
+        List<GetBookDTO> GetAll();
         List<GetCategoriesDTO> GetCategories();
-        bool AddBook(AddBookDTO dTO);
-        bool DeleteBook(int id);
+        bool Create(AddBookDTO dTO);
+        bool Delete(int id);
     }
 }
