@@ -32,6 +32,16 @@ namespace MaktabBookStore.Services.Services
             return ResultDTO<bool>.Fail("مشکلی هنگام حذف به وجود امد");
         }
 
+        public ResultDTO<GetCategoriesDTO?> Get(int id)
+        {
+            var result = _categoryRepository.Get(id);
+
+            if (result is null)
+                return ResultDTO<GetCategoriesDTO?>.Fail("دسته بندی پیدا نشد");
+
+            return ResultDTO<GetCategoriesDTO?>.Success(data: result);
+        }
+
         public List<GetCategoriesDTO> GetAll()
         {
             return _categoryRepository.GetAll();

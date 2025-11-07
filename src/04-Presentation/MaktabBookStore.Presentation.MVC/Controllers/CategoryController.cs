@@ -108,5 +108,93 @@ namespace MaktabBookStore.Presentation.MVC.Controllers
             TempData["ResultMessage"] = result?.Message;
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public IActionResult Update(int id)
+        {
+            var result = _categoryService.Get(id);
+
+            if (!result.IsSuccess || result.Data == null)
+            {
+                return RedirectToAction("Index");
+            }
+
+            var model = new GetCategoryViewModel
+            {
+                Id = result.Data.Id,
+                Name = result.Data.CategoryName,
+                LogoPath = result.Data.LogoPath,
+            };
+
+            return View(model);
+        }
+
+        [HttpPost]
+        public IActionResult Update(GetCategoryViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(model);
+            }
+
+            string relativePath = model.LogoPath; // اگر فایل جدید آپلود نشه، مسیر قبلی بمونه
+
+            if (model.Image != null && model.Image.Length > 0)
+            {
+                try
+                {
+                    var uploadDir = Path.Combine(
+                        Directory.GetCurrentDirectory(),
+                        "wwwroot",
+                        "images",
+                        "Logos"
+                    );
+                    if (!Directory.Exists(uploadDir))
+                        Directory.CreateDirectory(uploadDir);
+
+                    var originalFileName = Path.GetFileName(model.Image.FileName ?? string.Empty);
+                    var extension = Path.GetExtension(originalFileName);
+                    var safeFileName = $"{Guid.NewGuid()}{extension}";
+
+                    var filePath = Path.Combine(uploadDir, safeFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        model.Image.CopyTo(stream);
+                    }
+
+                    relativePath = Path.Combine("images", "Logos", safeFileName).Replace("\\", "/");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError(
+                        "",
+                        "در ذخیره شدن فایل مشکلی به وجود امد " + ex.Message
+                    );
+                    return View(model);
+                }
+            }
+
+            var dto = new GetCategoriesDTO
+            {
+                Id = model.Id ?? 0,
+                CategoryName = model.Name,
+                LogoPath = relativePath,
+            };
+
+            var result = _categoryService.Update(dto);
+
+            if (result.IsSuccess)
+            {
+                TempData["Message"] = "ویرایش با موفقیت انجام شد.";
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ViewBag.Message = result.Message;
+                ViewBag.IsSuccess = false;
+                return View(model);
+            }
+        }
     }
 }

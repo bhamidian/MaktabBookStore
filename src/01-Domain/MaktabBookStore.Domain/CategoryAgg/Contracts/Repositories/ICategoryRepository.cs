@@ -8,5 +8,6 @@ namespace MaktabBookStore.Domain.CategoryAgg.Contracts.Repositories
         bool Add(GetCategoriesDTO dTO);
         bool Update(GetCategoriesDTO dTO);
         bool Delete(int id);
+        GetCategoriesDTO? Get(int id);
     }
 }

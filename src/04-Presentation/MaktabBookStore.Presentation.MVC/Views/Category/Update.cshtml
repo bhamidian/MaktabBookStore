@@ -1,0 +1,47 @@
+@model MaktabBookStore.Presentation.MVC.Models.ViewModels.GetCategoryViewModel
+@{
+    Layout = "../Shared/_AdminLayout";
+    ViewData["Title"] = "Update";
+}
+<section class="min-h-screen ..." dir="rtl">
+    <div class="max-w-lg mx-auto ...">
+        <h2 class="text-2xl ...">ویرایش اطلاعات دسته‌بندی</h2>
+
+        <form asp-action="Update" method="post" enctype="multipart/form-data" class="space-y-6">
+            <input type="hidden" asp-for="Id" />
+
+            <div>
+                <label asp-for="Name" ...>نام دسته‌بندی</label>
+                <input asp-for="Name" type="text" class="w-full ..." />
+                <span asp-validation-for="Name" class="text-red-500 text-sm"></span>
+            </div>
+
+            @if (!string.IsNullOrEmpty(Model.LogoPath))
+            {
+                <div class="flex items-center gap-4">
+                    <span class="text-sm text-gray-600">لوگوی فعلی:</span>
+                    <img src="@Url.Content($"~/{Model.LogoPath}")"
+                         class="w-16 h-16 object-contain rounded-md border border-gray-200" alt="Category Logo" />
+                </div>
+            }
+
+            <div class="mt-4">
+                <label asp-for="Image">تغییر لوگو</label>
+                <input asp-for="Image" type="file" class="w-full ..." />
+                <span asp-validation-for="Image" class="text-red-500 text-sm"></span>
+            </div>
+
+            <div class="flex justify-center gap-4 mt-8">
+                <button type="submit" class="px-8 py-2.5 bg-indigo-600 ...">ذخیره تغییرات</button>
+                <a asp-action="Index" class="px-8 py-2.5 bg-gray-300 ...">بازگشت</a>
+            </div>
+
+            @if (ViewBag.Message != null)
+            {
+                <div class="mt-6 text-center font-medium @(ViewBag.IsSuccess ? "text-green-600" : "text-red-600")">
+                    @ViewBag.Message
+                </div>
+            }
+        </form>
+    </div>
+</section>

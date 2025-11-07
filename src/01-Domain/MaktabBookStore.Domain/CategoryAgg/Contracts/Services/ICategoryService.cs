@@ -9,5 +9,6 @@ namespace MaktabBookStore.Domain.CategoryAgg.Contracts.Services
         ResultDTO<bool> Add(GetCategoriesDTO dTO);
         ResultDTO<bool> Update(GetCategoriesDTO dTO);
         ResultDTO<bool> Delete(int id);
+        ResultDTO<GetCategoriesDTO?> Get(int id);
     }
 }

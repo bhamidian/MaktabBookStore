@@ -36,6 +36,21 @@ namespace MaktabBookStore.Infrastructure.EFCore.Repositories
             return _dbContext.SaveChanges() > 0;
         }
 
+        public GetCategoriesDTO? Get(int id)
+        {
+            var category = _dbContext.Categories.FirstOrDefault(c => c.Id == id);
+            if (category is null)
+                return null;
+
+            var newcategory = new GetCategoriesDTO
+            {
+                Id = category.Id,
+                CategoryName = category.Name,
+                LogoPath = category.LogoPath,
+            };
+            return newcategory;
+        }
+
         public List<GetCategoriesDTO> GetAll()
         {
             var categories = _dbContext
